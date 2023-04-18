@@ -38,15 +38,15 @@ const Projects = () => {
           <img className="h-40 w-full object-cover rounded-3xl drop-shadow-sm" src={projectdfa} alt="" />
           <div className="flex flex-col justify-between h-72 p-5 bg-secondary rounded-3xl drop-shadow-sm">
             <div className="">
-              <h3 className="font-bold text-xl">DFA Portofolio</h3>
+              <h3 className="font-bold text-xl">FebrianDFA Portofolio</h3>
               <p className="text-highlight text-base font-medium">React, Tailwind</p>
             </div>
-            <p className="text-base text-justify">DFA Portfolio is a responsive website built using React and styled with Tailwind CSS. It showcases my projects and skills of DFA, as web developer.</p>
+            <p className="text-base text-justify">FebrianDFA Portfolio is a responsive website built using React and styled with Tailwind CSS. It showcases my projects and skills of DFA, as web developer.</p>
             <div className="flex gap-5">
-              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/ResponsiveKoppiUniv" target="_blank" rel="noreferrer">
+              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
                 <img className="w-6" src={githubdark} alt="" />
               </a>
-              <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://koppiuniv.netlify.app/" target="_blank" rel="noreferrer">
+              <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://febriandfa.netlify.app/" target="_blank" rel="noreferrer">
                 Check The Website
                 <img className="w-6" src={arrowupright} alt="" />
               </a>
