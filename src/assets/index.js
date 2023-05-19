@@ -18,5 +18,30 @@ import githubdark from "./github-dark.svg";
 import projectkoppi from "./koppiuniversity.jpg";
 import projectjesa from "./jelajahunesa.jpg";
 import projectdfa from "./dfaportofolio.jpg";
+import projecteduhug from "./eduhug.jpg";
+import projectquliqu from "./quliqu.jpg";
 
-export { linkedin, instagram, github, arrowdown, arrowupright, logo, html, css, javascript, bootstrap, tailwind, react, gmaildark, instagramdark, linkedindark, whatsappdark, githubdark, projectkoppi, projectjesa, projectdfa };
+export {
+  linkedin,
+  instagram,
+  github,
+  arrowdown,
+  arrowupright,
+  logo,
+  html,
+  css,
+  javascript,
+  bootstrap,
+  tailwind,
+  react,
+  gmaildark,
+  instagramdark,
+  linkedindark,
+  whatsappdark,
+  githubdark,
+  projectkoppi,
+  projectjesa,
+  projectdfa,
+  projecteduhug,
+  projectquliqu,
+};

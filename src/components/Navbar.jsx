@@ -31,20 +31,20 @@ const Navbar = () => {
       </ul>
       {/* Social Media End */}
       {/* Name Start */}
-      <a className="font-bold text-2xl tracking-[0.5em] lg:px-12 border-x-2 px-4" href="#landing">
+      <a className="font-bold text-2xl tracking-[0.5em] lg:px-12 border-x-2 px-4" href="/">
         DFA
       </a>
       {/* Name End */}
       {/* Menu Start */}
       <ul className="hidden lg:flex font-medium text-[16px] items-center w-96 justify-between">
         <li className="p-5 hover:bg-hovernav">
-          <a href="#about">About</a>
+          <a href="/">About</a>
         </li>
         <li className="p-5 hover:bg-hovernav">
-          <a href="#projects">Project</a>
+          <a href="/portfolios">Project</a>
         </li>
         <li className="p-5 hover:bg-hovernav">
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </li>
       </ul>
       {/* Menu End */}
@@ -56,13 +56,13 @@ const Navbar = () => {
       {/* Mobile Menu Start */}
       <ul className={nav ? "fixed rounded-xl font-medium text-base right-4 top-14 w-[45%] text-center bg-secondary h-fit drop-shadow-lg" : "fixed left-[-100%]"}>
         <li className="my-7 hover:bg-hovernavmobile py-2">
-          <a href="#about">About</a>
+          <a href="/">About</a>
         </li>
         <li className="mb-7 hover:bg-hovernavmobile py-2">
-          <a href="#projects">Project</a>
+          <a href="/portfolios">Project</a>
         </li>
         <li className="mb-7 hover:bg-hovernavmobile py-2">
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </li>
       </ul>
       {/* Mobile Menu End */}
