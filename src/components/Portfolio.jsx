@@ -1,5 +1,5 @@
 import React from "react";
-import { arrowupright, githubdark, projectjesa, projectkoppi, projectdfa, projectquliqu, projecteduhug } from "../assets";
+import { arrowupright, githubdark, projectjesa, projectkoppi, projectdfa, projectquliqu, projecteduhug, projectbegagan } from "../assets";
 
 const Portfolio = () => {
   return (
@@ -66,9 +66,9 @@ const Portfolio = () => {
               Jelajah UNESA (JESA) is a website built on Wix.com platform. It serves as a platform for students to explore and discover various extracurricular activities available in Universitas Negeri Surabaya (UNESA).
             </p>
             <div className="flex gap-5">
-              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
+              {/* <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
                 <img className="w-6" src={githubdark} alt="" />
-              </a>
+              </a> */}
               <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://mrnaufal70.wixsite.com/jesa" target="_blank" rel="noreferrer">
                 Check The Website
                 <img className="w-6" src={arrowupright} alt="" />
@@ -87,9 +87,9 @@ const Portfolio = () => {
             </div>
             <p className="text-base text-justify">EduHug is a responsive website developed using HTML and styled with CSS. This website give useful information, practical tips, and expert advice on various aspects of family life.</p>
             <div className="flex gap-5">
-              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
+              {/* <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
                 <img className="w-6" src={githubdark} alt="" />
-              </a>
+              </a> */}
               <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://eduhug.netlify.app/" target="_blank" rel="noreferrer">
                 Check The Website
                 <img className="w-6" src={arrowupright} alt="" />
@@ -110,7 +110,7 @@ const Portfolio = () => {
               Quliqu is a desktop-based website built with React and Tailwind CSS, inspired by UI/UX designs from @arshakirpk. With modern interface, Quliqu offers a seamless browsing experience tailored specifically for desktop users.
             </p>
             <div className="flex gap-5">
-              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/Quliqu" target="_blank" rel="noreferrer">
+              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/quliqu-react-tailwind" target="_blank" rel="noreferrer">
                 <img className="w-6" src={githubdark} alt="" />
               </a>
               <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://quliqu.netlify.app/" target="_blank" rel="noreferrer">
@@ -121,6 +121,30 @@ const Portfolio = () => {
           </div>
         </div>
         {/* Project 5 End */}
+        {/* Project 6 Start */}
+        <div className="flex flex-col gap-3 lg:w-[32%] w-full h-fit">
+          <img className="h-40 w-full object-cover rounded-3xl drop-shadow-sm" src={projectbegagan} alt="" />
+          <div className="flex flex-col justify-between h-72 p-5 bg-secondary rounded-3xl drop-shadow-sm">
+            <div className="">
+              <h3 className="font-bold text-xl">Desa Begaganlimo</h3>
+              <p className="text-highlight text-base font-medium">React, Tailwind, Horizon UI</p>
+            </div>
+            <p className="text-base text-justify">
+              Desa Begaganlimo is a website developed using React, Tailwind, and Horizon UI, this website serves as an informative platform showcasing various aspects of the village, including local business, tourist attractions, and its
+              history.
+            </p>
+            <div className="flex gap-5">
+              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/Dawwas110104/begaganlimo-project" target="_blank" rel="noreferrer">
+                <img className="w-6" src={githubdark} alt="" />
+              </a>
+              <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://desabegaganlimo.netlify.app/" target="_blank" rel="noreferrer">
+                Check The Website
+                <img className="w-6" src={arrowupright} alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Project 6 End */}
       </div>
     </div>
   );

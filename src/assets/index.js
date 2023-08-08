@@ -20,6 +20,7 @@ import projectjesa from "./jelajahunesa.jpg";
 import projectdfa from "./dfaportofolio.jpg";
 import projecteduhug from "./eduhug.jpg";
 import projectquliqu from "./quliqu.jpg";
+import projectbegagan from "./begaganlimo.jpg";
 
 export {
   linkedin,
@@ -44,4 +45,5 @@ export {
   projectdfa,
   projecteduhug,
   projectquliqu,
+  projectbegagan,
 };

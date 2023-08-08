@@ -64,9 +64,9 @@ const Projects = () => {
             </div>
             <p className="text-base text-justify">EduHug is a responsive website developed using HTML and styled with CSS. This website give useful information, practical tips, and expert advice on various aspects of family life.</p>
             <div className="flex gap-5">
-              <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
+              {/* <a className="flex py-1 px-1 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://github.com/febriandfa/" target="_blank" rel="noreferrer">
                 <img className="w-6" src={githubdark} alt="" />
-              </a>
+              </a> */}
               <a className="flex text-sm items-center gap-2 font-medium py-1 px-2 bg-tertiary text-primary rounded-lg w-fit hover:bg-hoverbutton" href="https://eduhug.netlify.app/" target="_blank" rel="noreferrer">
                 Check The Website
                 <img className="w-6" src={arrowupright} alt="" />
